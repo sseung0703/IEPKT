@@ -17,23 +17,21 @@ This paper proposes a method of generating interpretable embedding procedure kno
 
 Network: WResNet40-4
 Dataset: CIFAR10 training set
-1. 
-In the former point in CNN, our knowledge shows that data is clustered based on low-level information, e.g., color and simple edges.
+
+1. In the former point in CNN, our knowledge shows that data is clustered based on low-level information, e.g., color and simple edges.
 <p align="center">
   <img src="pics/video0.gif" width="400"><br>
   <b></b>
 </p>
 
-2.
-In the middle point of CNN, our knowledge shows that embedding is on-going by more broadly distributed green data.
+2. In the middle point of CNN, our knowledge shows that embedding is on-going by more broadly distributed green data.
 Note that, green data is the most common color in CIFAR10.
 <p align="center">
   <img src="pics/video1.gif" width="400"><br>
   <b></b>
 </p>
 
-3.
-In the last stage of CNN, dataset is well-clustered according to the classes.
+3. In the last stage of CNN, dataset is well-clustered according to the classes.
 <p align="center">
   <img src="pics/video2.gif" width="400"><br>
   <b></b>
